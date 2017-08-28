@@ -1,0 +1,18 @@
+source 'git@git.coding.net:shunlegezi/XMGFMSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'  #官方仓库的地址
+ platform :ios, '8.0'
+
+target 'XMGDownLoadListern' do
+   use_frameworks!
+
+
+#pod 'XMGSegmentBar'
+#pod 'XMGDownLoad'
+#pod 'XMGRemotePlayer'
+#pod 'XMGSqlite'
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJExtension'
+
+end
